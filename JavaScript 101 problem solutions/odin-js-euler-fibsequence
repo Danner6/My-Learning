@@ -1,0 +1,21 @@
+var looping = function() {
+    var basket = [];
+    var a = 0, b = 1, f = 1;
+    for(var i = 2; i <= 35; i++) {
+        f = a + b;
+        a = b;
+        b = f;
+        if (f % 2 == 0) {
+            basket.push(f);
+        }
+    }
+
+    var total = 0;
+
+    for (var key in basket) {
+        total += basket[key]
+    }
+    console.log(total);
+
+};
+looping();

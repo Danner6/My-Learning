@@ -1,0 +1,24 @@
+var prime = function() {
+
+
+    var integers = [];
+    for (i = 2; i <= 30; i++) {
+        integers.push(i);
+    }
+
+
+    for (i = 2; i <= 30; i++) {
+        var p = 2;
+        if (integers[i] == true) {
+            for (j = p; j <= 30; j*j ) {
+                if (j %
+            }
+        }
+        var p += 1;
+    }
+
+console.log(integers);
+
+};
+
+prime();
