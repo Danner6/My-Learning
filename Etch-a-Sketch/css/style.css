@@ -9,3 +9,13 @@
       height:600px;
       margin: 30px auto;
 }
+
+.grid-squares {
+      width:10px;
+      height: 10px;
+      border: 1px solid grey;
+      float: left;
+      display:block;
+      padding:10px;
+      margin: 1px;
+}
